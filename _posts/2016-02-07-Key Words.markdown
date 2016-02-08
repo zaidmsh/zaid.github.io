@@ -5,16 +5,14 @@ date:   2016-02-07 11:57:44 +0300
 categories: jekyll update
 ---
 This is my second day in Wirefilter Company. We've gone through these topics:
-
-- Creating github website using Jykell.
-
-- Password Manager
-- 2FA
-- DBMSs
-- NoSQL
-- MySQL
-- Oracle
-- Web services exchange protocols
+ Creating github website using Jykell.
+ Password Manager
+ 2FA
+ DBMSs
+ NoSQL
+ MySQL
+ Oracle
+ Web services exchange protocols
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
