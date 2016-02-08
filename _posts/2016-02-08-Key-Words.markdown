@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 
 I learned in my second day at WireFilter company these following topics:
+
  Creating github website using Jykell
  Password Manager
  Ssh
