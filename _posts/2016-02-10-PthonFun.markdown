@@ -19,4 +19,6 @@ These are function I learned from [Codecademy][code-cademy] for Python:
 
 -```for index, item in enumerate(choices):``` enumerate helps seperates between the index and the value of the item in the index.
 
+-```for a, b in zip(list_a, list_b):``` function zip() helps with iterating through multiple lists but stops when the shorter list finishes.
+
 [code-cademy]: https://www.codecademy.com
