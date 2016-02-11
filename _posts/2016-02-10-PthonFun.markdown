@@ -5,7 +5,7 @@ date:   2016-02-08 9:20:00 +0300
 categories: jekyll update
 ---
 
-These are function I learned from [Codecademy][codecademy] for Python:
+These are function I learned from [Codecademy][code-cademy] for Python:
 
 raw_input(x) | x is a string message.
 
@@ -19,4 +19,4 @@ randint(x,y) |  the range of the numbers is x - y.
 
 
 
-[codecademy]: https://www.codecademy.com
+[code-cademy]: https://www.codecademy.com
