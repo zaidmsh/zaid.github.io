@@ -10,6 +10,8 @@ standards in python:
 
 These are function I learned from [Codecademy][code-cademy] for Python:
 
+-```len(x)``` returns the length of x
+
 -```raw_input(x)``` where x is a string message.
 
 -```list.append(x)``` where x is the value being added.
@@ -27,5 +29,9 @@ These are function I learned from [Codecademy][code-cademy] for Python:
 -```string.split()``` split the string into a list of words
 
 -```'-'.join(x)``` joins a list of strings with the '-'
+
+-``dict.items()``` returns the key/value pairs of the dictionary
+
+-```dict.keys() or dict.values()``` returns the keys and the values respectively
 
 [code-cademy]: https://www.codecademy.com
