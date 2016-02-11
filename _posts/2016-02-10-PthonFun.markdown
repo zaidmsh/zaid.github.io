@@ -1,10 +1,15 @@
 ---
 layout: post
-title:  "Python Funcions"
-date:   2016-02-08 9:20:00 +0300
+title:  "learning Python"
+date:   2016-02-08 1:20:00 +0300
 categories: jekyll update
 ---
+standards in python:
 
+- adding a char to a string ```x += 'A'```
+
+- adding to a list ``` x.append(34)```
+  
 These are function I learned from [Codecademy][code-cademy] for Python:
 
 -```raw_input(x)``` where x is a string message.
