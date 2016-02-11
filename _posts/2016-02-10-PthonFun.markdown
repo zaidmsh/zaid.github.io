@@ -8,9 +8,13 @@ categories: jekyll update
 These are function I learned from [Codecademy][codcademy] for Python:
 
 raw_input(x) | x is a string message.
+
 list.append(x) | x is the value being added.
+
 list.pop(x) | x is the index u want to delete.
+
 list.remove(x) | x is the item u want to remove.
+
 randint(x,y) |  the range of the numbers is x - y.
 
 
