@@ -6,6 +6,7 @@ categories: jekyll update
 ---
 
 These are function I learned from [Codecademy][code-cademy] for Python:
+
 -```raw_input(x)``` where x is a string message.
 
 -```list.append(x)``` where x is the value being added.
@@ -16,6 +17,6 @@ These are function I learned from [Codecademy][code-cademy] for Python:
 
 -```randint(x,y)``` where  the range of the numbers is x - y. (it is imported from "random").
 
-
+-```for index, item in enumerate(choices):``` enumerate helps seperates between the index and the value of the item in the index.
 
 [code-cademy]: https://www.codecademy.com
