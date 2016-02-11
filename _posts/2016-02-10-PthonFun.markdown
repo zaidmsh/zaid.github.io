@@ -5,7 +5,7 @@ date:   2016-02-08 9:20:00 +0300
 categories: jekyll update
 ---
 
-These are function I learned from [Codecademy][codcademy] for Python:
+These are function I learned from [Codecademy][codecademy] for Python:
 
 raw_input(x) | x is a string message.
 
