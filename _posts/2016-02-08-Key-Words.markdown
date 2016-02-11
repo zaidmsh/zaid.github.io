@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Topics Learned from at my first company"
-date:   2016-02-010 10:15:00 +0300
+date:   2016-02-10 10:15:00 +0300
 categories: jekyll update
 ---
 
