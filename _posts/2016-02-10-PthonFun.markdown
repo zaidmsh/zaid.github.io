@@ -11,31 +11,34 @@ standards in python:
 - ```evens_to_50 = [i for i in range(51) if i % 2 == 0]``` list comprehension
 
 - ```new = [start:end:stride]``` list slicing where start = begenning of slice including the start, end exclusive, stride step length
-  
+
 These are function I learned from [Codecademy][code-cademy] for Python:
 
--```len(x)``` returns the length of x
+- ```len(x)``` returns the length of x
 
--```raw_input(x)``` where x is a string message.
+- ```raw_input(x)``` where x is a string message.
 
--```list.append(x)``` where x is the value being added.
+- ```list.append(x)``` where x is the value being added.
 
--```list.pop(x)``` where x is the index u want to delete.
+- ```list.pop(x)``` where x is the index u want to delete.
 
--```list.remove(x)``` where x is the item u want to remove.
+- ```list.remove(x)``` where x is the item u want to remove.
 
--```randint(x,y)``` where  the range of the numbers is x - y. (it is imported from "random").
+- ```randint(x,y)``` where  the range of the numbers is x - y. (it is imported from "random").
 
--```for index, item in enumerate(choices):``` enumerate helps seperates between the index and the value of the item in the index.
+- ```for index, item in enumerate(choices):``` enumerate helps seperates between the index and the value of the item in the index.
 
--```for a, b in zip(list_a, list_b):``` function zip() helps with iterating through multiple lists but stops when the shorter list finishes.
+- ```for a, b in zip(list_a, list_b):``` function zip() helps with iterating through multiple lists but stops when the shorter list finishes.
 
--```string.split()``` split the string into a list of words
+- ```string.split()``` split the string into a list of words
 
--```'-'.join(x)``` joins a list of strings with the '-'
+- ```'-'.join(x)``` joins a list of strings with the '-'
 
--``dict.items()``` returns the key/value pairs of the dictionary
+- ```dict.items()``` returns the key/value pairs of the dictionary
 
--```dict.keys() or dict.values()``` returns the keys and the values respectively
+- ```dict.keys() or dict.values()``` returns the keys and the values respectively
+
+- ```filter(lambda x: x == 'Python', languages)``` filter takes two argument the first is a function the tells is what to filter and we used here "lambda" which allows us to create a small function  
+
 
 [code-cademy]: https://www.codecademy.com
