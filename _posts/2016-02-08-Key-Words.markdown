@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Topics Learned from WireFilter"
-date:   2016-02-08 9:20:00 +0300
+date:   2016-02-010 10:15:00 +0300
 categories: jekyll update
 ---
 
-I learned in my second day at WireFilter company these following topics:
+I learned these following topics at the company:
 
  Creating github website using Jykell.
 
