@@ -7,10 +7,14 @@ categories: jekyll update
 
 These are function I learned from [Codecademy][code-cademy] for Python:
 -```raw_input(x)``` where x is a string message.
+
 -```list.append(x)``` where x is the value being added.
--```list.pop(x)``` where x is the index u want to delete
--```list.remove(x)``` where x is the item u want to remove
--```randint(x,y)``` where  the range of the numbers is x - y. (it is imported from "random")
+
+-```list.pop(x)``` where x is the index u want to delete.
+
+-```list.remove(x)``` where x is the item u want to remove.
+
+-```randint(x,y)``` where  the range of the numbers is x - y. (it is imported from "random").
 
 
 
