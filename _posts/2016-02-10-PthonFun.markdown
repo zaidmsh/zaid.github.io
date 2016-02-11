@@ -8,6 +8,7 @@ standards in python:
 
 - adding a char to a string ```x += 'A'``` where adding to a list ``` x.append(34)```
 
+- ```evens_to_50 = [i for i in range(51) if i % 2 == 0]``` list comprehension 
 These are function I learned from [Codecademy][code-cademy] for Python:
 
 -```len(x)``` returns the length of x
