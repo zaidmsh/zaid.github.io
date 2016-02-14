@@ -4,15 +4,15 @@ title:  "learning Python"
 date:   2016-02-10 1:20:00 +0300
 categories: jekyll update
 ---
-standards in python:
+I learned Python from [Codecademy][code-cademy].
+
+these are function and some basic concepts in Python:
 
 - adding a char to a string ```x += 'A'``` where adding to a list ``` x.append(34)```
 
 - ```evens_to_50 = [i for i in range(51) if i % 2 == 0]``` list comprehension
 
 - ```new = [start:end:stride]``` list slicing where start = begenning of slice including the start, end exclusive, stride step length
-
-These are function I learned from [Codecademy][code-cademy] for Python:
 
 - ```len(x)``` returns the length of x
 
@@ -40,5 +40,10 @@ These are function I learned from [Codecademy][code-cademy] for Python:
 
 - ```filter(lambda x: x == 'Python', languages)``` filter takes two argument the first is a function the tells is what to filter and we used here "lambda" which allows us to create a small function  
 
+
+Classes in Python:
+
+- ```class ClassName(object):``` creating a class in python we use a capital letter at the first character of the class's name. Also we can put the derived class's name instead of ```object``` if we want to inherit that class.
+- ```def __init__(self, args):``` this function works as the constructors in C++ and Java.```self``` represents the object of this class and ```args``` represents the datamembers of the class that are given when creating an object of the class.
 
 [code-cademy]: https://www.codecademy.com
