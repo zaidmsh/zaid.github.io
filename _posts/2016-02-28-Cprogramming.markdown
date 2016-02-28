@@ -19,17 +19,33 @@ some network libraries:
 
 ```#include <sys/socket.h>``` used for socket programming and its core functions are:
 
-- ```int accept (int socket, struct sockaddr *address,
-                                 socklen_t *address_len);```
-
 - ```int socket(int domain, int type, int protocol);```
 
-- ```int bind(int socket, const struct sockaddr *address,
-     socklen_t address_len);``` socket
-Specifies the file descriptor of the socket to be bound.
-address
-Points to a sockaddr structure containing the address to be bound to the socket. The length and format of the address depend on the address family of the socket.
-address_len
-Specifies the length of the sockaddr structure pointed to by the address argument.
+server functions:
 
-- ```int listen(int socket, int backlog);``` The listen() function marks a connection-mode socket, specified by the socket argument, as accepting connections, and limits the number of outstanding connections in the socket's listen queue to the value specified by the backlog argument.
+- ```int bind(int socket, const struct sockaddr *address, socklen_t address_len);```
+
+- ```int listen(int socket, int backlog);```
+
+- ```int accept (int socket, struct sockaddr *address, socklen_t *address_len);```
+
+-```ssize_t recv(int socket, void *buffer, size_t length, int flags);```
+
+Client functions:
+
+-```int connect(int socket, const struct sockaddr *address,socklen_t address_len);```
+
+-```ssize_t send(int socket, const void *buffer, size_t length, int flags);```
+
+see [<sys/socket.h>][<sys/socket.h>] for more informations.
+
+
+```#include <arpa/inet.h>``` contains the in_addr structure and has the following functions:
+- ```uint32_t htonl(uint32_t);```
+- ```uint16_t htons(uint16_t);```
+- ```uint32_t ntohl(uint32_t);```
+- ```uint16_t ntohs(uint16_t);```
+
+these functions are used for big and little endian conversions.
+
+[<sys/socket.h>]:http://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html
