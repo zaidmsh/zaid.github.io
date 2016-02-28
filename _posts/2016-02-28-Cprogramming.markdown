@@ -71,10 +71,10 @@ these functions are used for big and little endian conversions.
                        const char * const *paramValues,
                        const int *paramLengths,
                        const int *paramFormats,
-                       int resultFormat);``` this is the extended version of the PQexec which you can find more information about [here][PQexecParams]
+                       int resultFormat);``` this is the extended version of the PQexec which you can find more information about [here][PQexecParams].
 
 
-[<sys/socket.h>]:http://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html
-[PosetgreSQL Databese-connection] : http://www.postgresql.org/docs/9.1/static/libpq-connect.html
-[PostgreSQL conn status] : http://www.postgresql.org/docs/9.1/static/libpq-status.html
-[PQexecParams] : http://www.postgresql.org/docs/9.1/static/libpq-exec.html
+[<sys/socket.h>]: http://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html
+[PosetgreSQL Databese-connection]: http://www.postgresql.org/docs/9.1/static/libpq-connect.html
+[PostgreSQL conn status]: http://www.postgresql.org/docs/9.1/static/libpq-status.html
+[PQexecParams]: http://www.postgresql.org/docs/9.1/static/libpq-exec.html
