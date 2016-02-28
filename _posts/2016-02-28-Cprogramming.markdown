@@ -57,12 +57,12 @@ these functions are used for big and little endian conversions.
 
 ```#include <libpq-fe.h>``` is a library for the PostgreSQL databases:
 
-- ```PGconn *PQconnectdb(const char *conninfo);``` is used to connect to a database for example ```PQconnectdb("postgresql://zaid@localhost/zaid");``` which returns a handler of type ```PQconn``` and takes the specified parameters the first ```zaid``` mean the user. ```localhost``` represent the server in which thee database is located in.``` zaid``` is the name of the database. ```PGconn *PQconnectdbParams(const char **keywords, const char **values, int expand_dbname);``` is the succerssor of PQconnectdb for more information about it visit [PosetgreSQL Databese-connection][PosetgreSQL Databese-connection]
+- ```PGconn *PQconnectdb(const char *conninfo);``` is used to connect to a database for example ```PQconnectdb("postgresql://zaid@localhost/zaid");``` which returns a handler of type ```PQconn``` and takes the specified parameters the first ```zaid``` mean the user. ```localhost``` represent the server in which thee database is located in.``` zaid``` is the name of the database. ```PGconn *PQconnectdbParams(const char **keywords, const char **values, int expand_dbname);``` is the succerssor of PQconnectdb for more information about it visit [PosetgreSQL Databese-connection][PosetgreSQL-Databese-connection]
 
 
 - ```void PQfinish(PGconn *conn);``` closes the connection to the database.
 
-- There are functions used to check the status of the connection which are very important and can be found in [here][PostgreSQL conn status].
+- There are functions used to check the status of the connection which are very important and can be found in [here][PostgreSQL-conn-status].
 
 - ```PGresult *PQexec(PGconn *conn, const char *command);``` returns a PGresult after executing the command given in the parameter. ```PGresult *PQexecParams(PGconn *conn,
                        const char *command,
@@ -75,6 +75,6 @@ these functions are used for big and little endian conversions.
 
 
 [<sys/socket.h>]: http://pubs.opengroup.org/onlinepubs/7908799/xns/syssocket.h.html
-[PosetgreSQL Databese-connection]: http://www.postgresql.org/docs/9.1/static/libpq-connect.html
-[PostgreSQL conn status]: http://www.postgresql.org/docs/9.1/static/libpq-status.html
+[PosetgreSQL-Databese-connection]: http://www.postgresql.org/docs/9.1/static/libpq-connect.html
+[PostgreSQL-conn-status]: http://www.postgresql.org/docs/9.1/static/libpq-status.html
 [PQexecParams]: http://www.postgresql.org/docs/9.1/static/libpq-exec.html
