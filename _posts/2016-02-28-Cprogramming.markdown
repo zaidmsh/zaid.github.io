@@ -39,11 +39,16 @@ Client functions:
 
 see [<sys/socket.h>][<sys/socket.h>] for more informations.
 
+--------------------------------------------------------------------------------------------
 
 ```#include <arpa/inet.h>``` contains the in_addr structure and has the following functions:
+
 - ```uint32_t htonl(uint32_t);```
+
 - ```uint16_t htons(uint16_t);```
+
 - ```uint32_t ntohl(uint32_t);```
+
 - ```uint16_t ntohs(uint16_t);```
 
 these functions are used for big and little endian conversions.
