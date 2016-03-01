@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C Programming"
+title:  "getopt() parsing arguments"
 date:   2016-02-10 1:20:00 +0300
 categories: jekyll update
 ---
