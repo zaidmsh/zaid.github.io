@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Linux Commands"
+title:  "Regular Expression"
 date:   2016-03-03 11:30:00 +0300
-categories: Linux cli
+categories: RE
 ---
 ## Process Related Commands
 

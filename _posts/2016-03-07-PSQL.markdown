@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "PostgreSQL"
+date:   2016-03-03 11:30:00 +0300
+categories: PSQL
+---
+# Creating a DB
+`CREATE DATABASE dbname;`
+# Connet to a DB
+`\connect dbname;`
+# Create table in DB
+`CREATE TABLE tablename (
+    id SERIAL,
+    name type,
+    name type,
+    ...
+    );`
+
+# INSERT data into a table
+`INSERT INTO tablename(var1, var2) VALUES(val1, val2);`
+
+# Display data from a table
+`SELECT * FROM tablename;`
+
+# DELETE Tuples
+`DELETE FROM tablename;`
+we can restat the sequence:
+`ALTER SEQUENCE tablename_seq RESTART;`
