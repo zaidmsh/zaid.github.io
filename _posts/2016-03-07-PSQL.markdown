@@ -6,8 +6,10 @@ categories: PSQL
 ---
 # Creating a DB
 `CREATE DATABASE dbname;`
+
 # Connet to a DB
 `\connect dbname;`
+
 # Create table in DB
 `CREATE TABLE tablename (
     id SERIAL,
