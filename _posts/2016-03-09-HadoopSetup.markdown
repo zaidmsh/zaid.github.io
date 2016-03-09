@@ -12,8 +12,8 @@ categories: HADOOP
 
 - Install ssh command
 
-    `sudo aptitude install SSH`
-    `sudo aptitude install rsync`
+    sudo aptitude install SSH
+    sudo aptitude install rsync
 
 - Generate keys
 
@@ -21,8 +21,8 @@ categories: HADOOP
 
 - Execute the following to be able to ssh to localhost without a passphrase
 
-    `ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa`
-    `cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys`
+    ssh-keygen -t rsa -P '' -f ~/.ssh/id_rsa
+    cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
 
 - Now ssh to localhost
 
