@@ -4,6 +4,9 @@ title:  "PostgreSQL"
 date:   2016-03-03 11:30:00 +0300
 categories: PSQL
 ---
+# HELP
+    \?
+
 # Creating a DB
 `CREATE DATABASE dbname;`
 
@@ -26,5 +29,5 @@ categories: PSQL
 
 # DELETE Tuples
 `DELETE FROM tablename;`
-we can restat the sequence:
+we can restart the sequence:
 `ALTER SEQUENCE tablename_seq RESTART;`
